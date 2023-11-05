@@ -1,0 +1,40 @@
+.GalleryCard__wrapper{
+    width: 1150px;
+    height: 536px;
+    position: relative;
+    font-family: 'Arimo', sans-serif;
+}
+
+.GalleryCard__descriptions{
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.GalleryCard__transport, .GalleryCard__vouchers{
+    display: block;
+    padding: 15px 20px 15px 20px;
+    font-size: 16px;    
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: #FFF59D;
+}
+
+.GalleryCard__vouchers:after{
+    display: inline-block;
+    content:"";
+    width: 16px;
+    height: 16px;
+    background-image: url('../../assets/people_icon.png');
+    background-size: 16px 16px;
+}
+
+
+.GalleryCard__title{
+    position: absolute;
+    top: 454px;
+    left: 40px;
+    font-size: 45px;    
+    color: #FFFEF4;
+}

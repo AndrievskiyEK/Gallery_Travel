@@ -1,0 +1,6 @@
+.Gallery__wrapper{
+    margin-bottom: 84px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
