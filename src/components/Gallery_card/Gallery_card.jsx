@@ -2,7 +2,7 @@ import React from 'react';
 import './Gallery_card.css';
 
 
-const cardName = "Тбилиси, апрель — 83.000"
+
 function GalleryCard (props) {
     return (
         <div className='GalleryCard__wrapper'>
